@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "health-me"
+version = "0.1.0"
+description = "Using personal health data with a LLM chat bot"
+authors = ["Jonathan Juarez"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.2"
+ipykernel = "^6.29.5"
+lxml = "^5.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
